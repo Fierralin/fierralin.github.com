@@ -43,13 +43,15 @@
            <div class="s_tuijian">
            <h2>Articles<span>Recommended</span></h2>
            </div>
-          <div class="content_text">
+          <div class="content_text"> <!-- list of articles -->
           
-           <!--wz--> <!-- 重复几遍-->
+           <!--wz--> <!-- 重複幾遍，添加文字 -->
            <div class="wz">
             <h3><a href="#" title="Nausicaa vs. Tomb">Nausicaa vs. Tomb</a></h3>
-             <dl>
+            <dl>
+               <!-- 添加圖片
                <dt><img src="images/s.jpg" width="200"  height="123" alt=""></dt>
+               -->
                <dd>
                  <p class="dd_text_1">
                  秦時明月漢時關
@@ -57,41 +59,56 @@
                  但使龍城飛將在
                  不教胡馬渡陰山
                  </p>
-               <p class="dd_text_2">
-               <span class="left author">王昌齡</span><span class="left sj">大唐開元二十九年</span>
-               <span class="left fl">類別<a href="#" title="唐書">唐書</a></span><span class="left yd"><a href="#" title="全文">全文</a>
-               </span>
-                <div class="clear"></div>
-               </p>
+                 <p class="dd_text_2">
+                  <span class="left author">王昌齡</span>
+                  <span class="left sj">大唐開元二十九年</span>
+                  <span class="left fl">類別 <a href="#" title="唐書">唐書 </a></span>
+                  <span class="left yd"><a href="#" title="全文">全文</a></span>
+                  <div class="clear"></div>
+                 </p>
                </dd>
                <div class="clear"></div>
-             </dl>
-            </div>
+            </dl>
+           </div>
            <!--wz end-->
            
-          </div>
+           <body>
+            秦時明月漢時關
+            萬里長征人未還
+            但使龍城飛將在
+            不教胡馬渡陰山
+            <script language="javascript">
+                alert(document.body.innerText)
+            </script>
+           </body>
+           
+          </div> <!-- finish list of articles -->
+          
          </div>
+         
          <!--left end-->
          <!--right-->
          <div class="right" id="c_right">
           <div class="s_about">
           <h2>About Blogger</h2>
+           <!-- photography 添加照片
            <img src="images/my.jpg" width="217" height="217" alt="博主"/>
-           <p>博主：XX</p>
-           <p>职业：</p>
-           <p>简介：</p>
+           -->
+           <p>Blogger: Fierralin</p>
+           <p>Occupation: Student</p>
+           <p>Abstract: Nothing</p>
            <p>
-           <a href="#" title="联系博主"><span class="left b_1"></span></a>
-           <a href="#" title="加入QQ群，一起学习！"><span class="left b_2"></span></a>
+           <a href="#" title="Contact me: "><span class="left b_1">Nothing</span></a>
+           <a href="#" title="QQ: "><span class="left b_2">Nay</span></a>
            <div class="clear"></div>
            </p>
           </div>
           
           
-          <!--栏目分类-->
+          <!-- 欄目分類 -->
            <div class="lanmubox">
               <div class="hd">
-               <ul><li>精心推荐</li><li>最新文章</li><li class="hd_3">随机文章</li></ul>
+               <ul><li>唐詩</li><li>宋詞</li><li class="hd_3">元曲</li></ul>
               </div>
               <div class="bd">
                 <ul>
@@ -120,11 +137,13 @@
          <div class="clear"></div>
     </div>
     <!--content end-->
+    
     <!--footer start-->
     <div id="footer">
-     <p>Design by:<a href="http://www.douban.com/note/tags/Python?people=Fierralin" target="_blank">Nay</a> 2014-8-9</p>
+     <p>Design by: <a href="http://www.douban.com/people/Fierralin" target="_blank">Fierralin</a> 大唐開元二十九年</p>
     </div>
     <!--footer end-->
+    
     <script type="text/javascript">jQuery(".lanmubox").slide({easing:"easeOutBounce",delayTime:400});</script>
     <script  type="text/javascript" src="js/nav.js"></script>
 
