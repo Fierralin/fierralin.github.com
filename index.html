@@ -1,152 +1,174 @@
-<!DOCTYPE HTML>
+<!doctype HTML>
 <html lang="zh-CN">
-<head>
-<meta charset="UTF-8">
-<title>Fierralin's Mainpage</title> <!-- the title -->
-<meta name="keywords" content="Blog" />
-<meta name="description" content="" />
-<link rel="stylesheet" href="css/index.css"/> <!-- ccs -->
-<link rel="stylesheet" href="css/style.css"/> <!-- ccs -->
-<script type="text/javascript" src="js/jquery1.42.min.js"></script>
-<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
-<!--[if lt IE 9]>
-<script src="js/html5.js"></script>
-<![endif]-->
-</head> <!-- end of head -->
+	<head>
+		<meta charset="utf-8">
+		<title>Fierralin's Homepage</title>
+		<meta name="description" content="A free template from http://ws-templates.com">
+		<meta name="keywords" content="keyword1,keyword2"/>
+
+		<link  href="css/screen.css" media="screen" rel="stylesheet"/>
+		<link  href="css/style.css" media="screen" rel="stylesheet"/>
+        <link  rel="icon" href="images/Lancifolium.ico" type="image/x-icon"/>
+	</head>
 
 <body>
-    <!--header start-->
-    <div id="header">
-      <h1>Fierralin's Blog</h1>
-      <p>Life is the light that shines in the Darkness! </p>    
-    </div>
-     <!--header end-->
-    <!--nav-->
-     <div id="nav">
-        <ul>
-         <!-- subpages here -->
-         <li><a href="index.html">Home Page</a></li>
-         <li><a href="about.html">About Me</a></li>
-         <li><a href="talk.html">Talk</a></li>
-         <li><a href="logs.html">Logs</a></li>
-         <li><a href="pictures.html">Pictures</a></li>
-         <li><a href="Lancifolium.html">Lancifolium</a></li>
-         <li><a href="messages.html">Messages</a></li>
-         <div class="clear"></div>
-        </ul>
-      </div>
-       <!--nav end-->
-    <!--content start-->
-    <div id="content">
-         <!--left-->
-         <div class="left" id="c_left">
-           <div class="s_tuijian">
-           <h2>Articles<span>Recommended</span></h2>
-           </div>
-          <div class="content_text"> <!-- list of articles -->
-          
-           <!--wz--> <!-- 重複幾遍，添加文字 -->
-           <div class="wz">
-            <h3><a href="#" title="Nausicaa vs. Tomb">Nausicaa vs. Tomb</a></h3>
-            <dl>
-               <!-- 添加圖片
-               <dt><img src="images/s.jpg" width="200"  height="123" alt=""></dt>
-               -->
-               <dd>
-                 <p class="dd_text_1">
-                 秦時明月漢時關
-                 萬里長征人未還
-                 但使龍城飛將在
-                 不教胡馬渡陰山
-                 </p>
-                 <p class="dd_text_2">
-                  <span class="left author">王昌齡</span>
-                  <span class="left sj">大唐開元二十九年</span>
-                  <span class="left fl">類別 <a href="#" title="唐書">唐書 </a></span>
-                  <span class="left yd"><a href="#" title="全文">全文</a></span>
-                  <div class="clear"></div>
-                 </p>
-               </dd>
-               <div class="clear"></div>
-            </dl>
-           </div>
-           <!--wz end-->
-           
-           <!--
-           <body>
-            秦時明月漢時關
-            萬里長征人未還
-            但使龍城飛將在
-            不教胡馬渡陰山
-            <script language="javascript">
-                alert(document.body.innerText)
-            </script>
-           </body>
-           -->
-           
-          </div> <!-- finish list of articles -->
-          
-         </div>
-         
-         <!--left end-->
-         <!--right-->
-         <div class="right" id="c_right">
-          <div class="s_about">
-          <h2>About Blogger</h2>
-           <!-- photography 添加照片
-           <img src="images/my.jpg" width="217" height="217" alt="博主"/>
-           -->
-           <p>Blogger: Fierralin</p>
-           <p>Occupation: Student</p>
-           <p>Abstract: Nothing</p>
-           <p>
-           <a href="#" title="Contact me: "><span class="left b_1">Nothing</span></a>
-           <a href="#" title="QQ: "><span class="left b_2">Nay</span></a>
-           <div class="clear"></div>
-           </p>
-          </div>
-          
-          
-          <!-- 欄目分類 -->
-           <div class="lanmubox">
-              <div class="hd">
-               <ul><li>唐詩</li><li>宋詞</li><li class="hd_3">元曲</li></ul>
-              </div>
-              <div class="bd">
-                <ul>
-					<li><a href="#" title="网站项目实战开发（-）">网站项目实战开发（-）</a></li>
-					<li><a href="#" title="关于响应式布局">关于响应式布局</a></li>
+
+<!--頂上一欄-->
+<div id="uppermenu"><span class="container">Fierralin@sina.com</span></div>
+
+<!--整個的主界面-->
+<div class="container"><!--centers the content between from header to footer-->
+
+<header  class="clearfix"><!--標題欄-->
+	<h1 class="left"><span>Fierralin</span>'s Homepage</h1>
+	<hr />
+    <h3 class="left">一燈明暗覆吳圖</h3>
+	<form action="#" class="right" method="post"> <!--搜索項目-->
+		<input class="span-6 last" type="text" name="searchField" placeholder="search" />
+	</form>
+</header>
+
+<!--################################################-->
+<nav> <!--欄目條目-->
+	<ul>
+		<li class="active"><a href="index.html">Home</a></li>
+		<li><a href="portfolio.html">Portfolio</a></li>
+		<li><a href="blog.html">Blog</a></li>
+		<li><a href="Lancifolium.html">Lancifolium</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		<li><a href="Manuals.html">Manuals</a></li>
+	</ul>
+</nav>
+
+<!--################################################-->
+<div id="content" class="clearfix">
+	<section id="posts" class="span-15 append-1">
+    
+		<h1><span>Recent posts</span></h1>
+        
+		<article><!--an article-->
+			<div class="date span-3">03 March</div>
+			<h2><a href="#">Big title goes here</a></h2>
+			<div class="metadata">
+				<ul>
+					<li>Posted by <a href="#">Fierralin</a></li><li> in <a href="#">photoshop</a></li>
 				</ul>
-                 <ul
-					<li><a href="#" title="网站项目实战开发（二）">网站项目实战开发（二）</a></li>
-					<li><a href="#" title="为什么新站前期排名老是浮动？(转)">为什么新站前期排名老是浮动？(转)</a></li>
+			</div>
+			<img src="images/img_15.jpg" alt="" />
+			<p>Sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet orem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum...</p>
+			<div class="more"><a href="#">Read more ...</a></div>
+		</article>
+        
+		<hr /> <!--文章中間的分割-->
+        
+		<article>
+			<div class="date span-3">03 March</div>
+			<h2><a href="#">Big title goes here</a></h2>
+			<div class="metadata">
+				<ul>
+					<li>Posted by <a href="#">Fierralin</a></li><li> in <a href="#">photoshop</a></li><li><a href="#">3comments</a></li>
 				</ul>
-                 <ul>
-					<li><a href="#" title="网站项目实战开发（-）">网站项目实战开发（-）</a></li>
-					<li><a href="#" title="关于响应式布局">关于响应式布局</a></li>
-				</ul>
+			</div>
+			<img src="images/img_15.jpg" alt="" />
+			<p>Sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet orem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum...</p>
+			<div class="more"><a href="#">Read more ...</a></div>
+		</article>
+		
+		<div id="pagination"  >
+			<a href="#">previous</a> <a href="#" class="hover">1</a><a href="#" class="current">2</a><a href="#">3</a>...<a href="#">22</a><a href="#">next</a>
+		</div>
+	</section> <!--文章欄目到此結束-->
+<!--################################################-->
+	<aside class="span-8 last right clearfix"> <!--與section的區別-->
+		<h2><span>blog categories</span></h2>
+		<ul>
+			<li>
+				<a href="#">web design</a></li>
+			<li>
+				<a href="#">photoshop</a></li>
+			<li>
+				<a href="#">web application</a></li>
+			<li>
+				<a href="#">SEO</a></li>
+		</ul>
+        
+		<h2><span>Recent posts</span></h2>
+		<img src="images/rp_img.jpg" width="70" height="64" alt="alt" class="span-2">
+		<h3>
+			<a href="#">first post</a></h3>
+		<p>takimata sanctus est Lorem ipsum dolor sit amet orem ipsum dolor</p>
+		<p class="date">12 March at 10:10 am</p>
+		<hr />
+		<img src="images/rp_img.jpg" width="70" height="64" alt="alt" class="span-2">
+		<h3>
+			<a href="#">first post</a></h3>
+		<p>takimata sanctus est Lorem ipsum dolor sit amet orem ipsum dolor</p>
+		<p class="date">12 March at 10:10 am</p>
+		<hr />
+		<img src="images/rp_img.jpg" width="70" height="64" alt="alt" class="span-2">
+		<h3>
+			<a href="#">first post</a></h3>
+		<p>takimata sanctus est Lorem ipsum dolor sit amet orem ipsum dolor</p>
+		<p class="date">12 March at 10:10 am</p>
+		<hr />
+        
+		<h2><span>Archive</span></h2>
+		<ul>
+			<li>
+				<a href="#">April 2016</a></li>
+			<li>
+				<a href="#">May 2016</a></li>
+			<li>
+				<a href="#">June 2016</a></li>
+			<li>
+				<a href="#">July 2016</a></li></ul>
+	</aside>
+</div>
+
+</div><!--結束整個的主界面-->
+
+<!--################################################-->
+
+<footer class="clearfix">
+	<div class="container">
+        <div class="about span-6 append-1">
+            <h3>About Serablog</h3>
+            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet orem ipsum dolor sit amet, consetetur sadipscing eli</p>
+        
+        </div>
+        
+        <div id="tweets" class="span-6 append-1">
+            <h3>Latest tweets</h3>
+            <div class="one_tweet">
+                <p>sit amet orem ipsum dolor sit amet, consetetur sadipscing </p>
+                <a href="#">http://t.co/#####</a>
+                <div class="date">03 March 2013</div>
+            </div>
+            <div class="one_tweet">
+                <p>sit amet orem ipsum dolor sit amet</p>
+                <a href="#">http://t.co/#####</a>
+                <div class="date">03 March 2013</div>
+            </div>
+        </div>
+        
+        <div id="footer_form" class="span-10 last clearfix">
+        <h3>Contact us</h3>
+            <form action="#">
+                <div class="row"><label for="name">Your name</label><input type="text" name="name" class="span-7 right last" /></div>
+                <div class="row"><label for="email">Your e-mail</label><input type="text" name="email" class="span-7 right last"/></div>
+                <div class="row"><label for="message">Your message</label><textarea name="message"class="span-7 right last"></textarea></div>
+            <div class="right">	<input type="submit" /></div>
+            </form>
+            
+            
+        </div>
+        
+        <hr />
                 
-              </div>
-           </div>
-           <!--end-->
-           <div class="link">
-            <h2>Friend link</h2>
-            <p><a href="http://www.douban.com/people/Fierralin">Fierralin's Douban</a></p>
-           </div>
-         </div>
-         <!--right end-->
-         <div class="clear"></div>
+                Copyright 2016 by <b>Fierralin</b>, all rights reserved
+                <span class="right last">Design by: <a href="https://www.douban.com/people/Fierralin/">Fierralin</a></span>
     </div>
-    <!--content end-->
-    
-    <!--footer start-->
-    <div id="footer">
-     <p>Design by: <a href="http://www.douban.com/people/Fierralin" target="_blank">Fierralin</a> 大唐開元二十九年</p>
-    </div>
-    <!--footer end-->
-    
-    <script type="text/javascript">jQuery(".lanmubox").slide({easing:"easeOutBounce",delayTime:400});</script>
-    <script  type="text/javascript" src="js/navy.js"></script>
+</footer>
 
 </body>
 </html>
