@@ -10,10 +10,10 @@ title: Fierralin Cage
 Site: <http://www.douban.com/people/Fierralin>
 
 
-<p><br /><b>My Blog:</b></p>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+<p><br /><b>Articles</b></p>
+  <ul class="post">
+    {% for term in site.post %}
+      <li><span>{{ term.date | date_to_string }}</span> &raquo; <a href="{{ term.url }}">{{ term.title }}</a></li>
     {% endfor %}
   </ul>
 
