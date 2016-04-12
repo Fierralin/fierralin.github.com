@@ -10,21 +10,21 @@ title: Fierralin Cage
 Site: <http://www.douban.com/people/Fierralin>
 
 
-<p><br /><b>Articles</b></p>
+<h1><br /><b>Articles</b></h1>
   <ul class="post">
     {% for term in site.post %}
       <li><span>{{ term.date | date_to_string }}</span> &raquo; <a href="{{ term.url }}">{{ term.title }}</a></li>
     {% endfor %}
   </ul>
 
-<p><b>Find me on:</b></p>
+<h1><b>Find me on:</b></h1>
 
 <ul>
 
 <li><a href="http://www.douban.com/people/Fierralin">douban</a></li>
 
 </ul>
-<p><br /><b>Contact Information:</b></p>
+<h1><br /><b>Contact Information:</b></h1>
 
 <blockquote>
 fierralin@sina.com
