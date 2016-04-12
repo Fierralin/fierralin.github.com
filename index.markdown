@@ -11,9 +11,9 @@ Site: <http://www.douban.com/people/Fierralin>
 
 
 <h1><br /><b>Articles</b></h1>
-  <ul class="post">
-    {% for term in site.post %}
-      <li><span>{{ term.date | date_to_string }}</span> &raquo; <a href="{{ term.url }}">{{ term.title }}</a></li>
+  <ul class="page">
+    {% for post in site.articles %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ v.title }}</a></li>
     {% endfor %}
   </ul>
 

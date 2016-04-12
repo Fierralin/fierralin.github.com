@@ -29,13 +29,13 @@ ul{
 	padding: 0;
 }
 
-ul.post {
+ul.page {
   list-style-type: none;
   font-size: 12px;
   margin-bottom: 2em;
 }
 
-ul.post span {
+ul.page span {
   color: #aaa;
   font-family: Monaco, "Times New Roman", monospace;
   font-size: 80%;
