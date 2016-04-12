@@ -3,10 +3,8 @@ layout: default
 title: Fierralin Cage
 ---
 
-Hi there, I am Peter Wang, an [Open Source][oss] enthusiast. This site is
-dedicated to providing information about [me](resume.html) and [what I do](/work).
-
 [Me](Fierralin.html)
+
 [Work](/work)
 
 Site: <http://www.douban.com/people/Fierralin>
