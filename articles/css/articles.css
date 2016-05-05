@@ -1,0 +1,105 @@
+*{
+	letter-spacing:-1px;
+	font-weight:100;
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: Verdana, Tahoma;
+	font-size: 8pt;
+	word-spacing: 5px;
+	background: black repeat-x;
+}
+
+b{font-size: 110%;}
+
+
+
+#maincontainer{
+	width: 900px;
+	margin: 0 auto;
+}
+
+/* header */
+#header{
+	margin-top:50px; /* 上外邊距 */
+}
+#header h1{
+	color:#666666;
+	letter-spacing:-7px;
+	font-size:91pt;
+}
+#header h2{
+	color:#121212;
+	letter-spacing:0px;
+	font-size:36pt;
+}
+
+/* content*/
+#contentwrapper{
+	float: left;
+	width: 100%;
+}
+
+#contentcolumn{
+	color:gray;
+	margin-left: 171;
+}
+a {
+	color:#666666;
+	text-decoration:none;
+}
+a:hover {
+	color:#ffffff;
+}
+
+#contentcolumn h1{
+	font-size:16pt;
+	padding:15px;
+}
+#contentcolumn h3{
+	font-size:13pt;
+	padding:15px;
+}
+#contentcolumn p  {
+	text-indent:2em;
+	line-height:1em;
+	padding-top:11px;
+	padding:9px;
+}
+#contentcolumn ul{
+	padding:15px;
+}
+#contentcolumn ul li{
+	padding:11px;
+}
+
+#leftcolumn {
+	float: left;
+	width: 17%;
+	margin-left: -100%;
+}
+#leftcolumn ul {
+	padding-top:35px;
+	margin-left:0;
+	list-style:none;
+	letter-spacing:0;
+}
+#leftcolumn ul li a {
+	text-decoration:none;
+	font-size:13pt;
+	padding:10px;
+	display:block;
+}
+
+#leftcolumn ul li a:hover {
+	color:#ffffff;
+}
+
+#footer{
+	font-size:11pt;
+	text-align:right;
+	clear:left;
+	padding: 30px;
+}
