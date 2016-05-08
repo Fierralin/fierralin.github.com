@@ -8,12 +8,13 @@
 # Site settings
 
 # Where things are
-source:       ./blog
+source:       .
 destination:  ./blog/_site
 plugins_dir:  ./blog/_plugins
 layouts_dir:  ./blog/_layouts
 data_dir:     ./blog/_data
 includes_dir: ./blog/_includes
+sass_dir:     ./blog/_sass
 collections:  null
 
 title: Fierralin's Homepage
