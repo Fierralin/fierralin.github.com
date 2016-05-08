@@ -20,7 +20,7 @@ title: Fierralin's Homepage
 email: fierralin@sina.com
 description: > # this means to ignore newlines until "baseurl:"
   Life is the light that shines in the Darkness! 
-baseurl: "/articles" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: Fierralin
 github_username:  Fierralin
