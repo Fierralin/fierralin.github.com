@@ -1,112 +1,93 @@
 <!doctype HTML>
-<html lang="zh-CN">
+<html>
 	<head>
-		<meta charset="utf-8">
-		<title>Lancifolium</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Fierralin's Homepage</title>
 		<meta name="description" content="Fierralin's Homepage" />
-		<meta name="keywords" content="enter your keywords here" />
+		<meta name="keywords" content="Fierralin, Lancifolium" /> <!-- this page's keywords -->
 		<link  href="css/base.css" media="screen" rel="stylesheet"/>
         <link  rel="icon" href="images/Lancifolium.ico" type="image/x-icon"/>
+		<style type="text/css">
+			html {
+				background:url('images/bg_vert.jpg') #333d43;
+			}
+			body {
+				background:url('images/bg_head.jpg') repeat-x top center, url('images/bg_vert.jpg') repeat-x;
+				background-position:center;
+				background-repeat:repeat-x;
+			}
+		</style>
 	</head>
 
-<body>
 
-<!--頂上一欄-->
-<div id="uppermenu">
-</div>
-<header>
-</header>
+	<body>
 
-<!--整個的主界面-->
-<div class="container"><!--centers the content between from header to footer-->
-    <nav> <!--欄目條目-->
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="articles/index.html">Articles</a></li>
-            <li><a href="blog/index.html">Blog</a></li>
-            <li class="active"><a href="Lancifolium.html">Lancifolium</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="Manuals.html">Manuals</a></li>
-        </ul>
-    </nav>
+		<h1 style="color:#668B8B; font-family:Georgia">Fierralin's homepage</h1>
 
-<!--################################################-->
-<div id="content" class="clearfix">
-	<section id="posts" class="span-15 append-1">
-    
-		<h1><span>Lancifolium Page</span></h1>
-        
-		<article><!--an article-->
-			<div class="date span-3">03 March</div>
-			<h2><a href="#">Big title goes here</a></h2>
-			<div class="metadata">
-				<ul>
-					<li>posted by <a href="#">Fierralin</a></li><li> in <a href="#">photoshop</a></li>
-				</ul>
-			</div>
-			<img src="images/img_15.jpg" alt="" />
-			<p>Sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet orem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum...</p>
-			<div class="more"><a href="#">Read more ...</a></div>
-		</article>
-        
-		<hr /> <!--文章中間的分割-->
-        
-        <form onSubmit="return test();"> <!-- for test-->
-            <input type="submit" value="abc">
-        </form>
-        
-        <script language="JavaScript">
-            function () {
-                document.write("000000000000");
-            }
-            function()
-            var today = new Date()
-            var month = today.getMonth() + 1
-            var 
-        </script>
-        
-	</section> <!--文章欄目到此結束-->
-    
-    
-    
-<!--################################################-->
-	<aside class="span-8 last right clearfix"> <!--與section的區別-->
-		<h2><span>blog categories</span></h2>
+		<style>
+			ul {
+				overflow: hidden;
+				display: inline-block;
+				padding-top: 18px;
+			}
+			li {
+				position: relative;
+				float: left;
+				list-style: none;
+			}
+      a {
+        color: #5d5d5d;
+				display: inline-flex;
+        text-decoration:none;
+        padding: 6px 12px 6px;
+      }
+			a.homeIcon{
+				background:url('images/home.png') no-repeat center center;
+				display: block;
+				overflow: hidden;
+				padding-left: 12px;
+				padding-right: 12px;
+				text-indent: -9999px;
+				width: 16px;
+			}
+			li:after {
+				color: red;
+				overflow:hidden;
+				position:absolute;
+				width:100%;
+				height:100%;
+			}
+		</style>
 		<ul>
-			<li>
-				<a href="#">Move</a></li>
-			<li>
-				<a href="#">Refresh</a></li>
-			<li>
-				<a href="#">Choose dots</a></li>
-			<li>
-				<a href="#">SEO</a></li>
+			<li><a href="index.html" class="homeIcon">Homepage</a></li>
+			<li><a href="articles/index.html">Articles</a></li>
+			<li><a href="blog/index.html">Blog</a></li>
+			<li><a href="Lancifolium.html">Lancifolium</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="Manuals.html">Manuals</a></li>
 		</ul>
-        
-		<h2><span>Related</span></h2>
-        <ul>
-			<li>
-				<a href="http://site.douban.com/221706/" target="_blank">豆瓣倒垂蓮站</a></li>
-			<li>
-				<a href="http://tieba.baidu.com/f?kw=%B5%B9%B4%B9%C1%AB&fr=ala0"  target="_blank">百度倒垂蓮吧</a></li>
-			<li>
-				<a href="https://www.douban.com/group/Lancifolium/" target="_blank">豆瓣倒垂蓮組</a></li>
-		</ul>
-        
-		<h2><span>Archive</span></h2>
-		<ul>
-			<li>
-				<a href="#">April 2016</a></li>
-			<li>
-				<a href="#">May 2016</a></li>
-			<li>
-				<a href="#">June 2016</a></li>
-			<li>
-				<a href="#">July 2016</a></li></ul>
-	</aside>
-</div>
 
-</div><!--結束整個的主界面-->
+		<div>
+			<pre><!-- programming source code !!! -->
+	#include <cstdio>
+	int main(void) {
+		printf("Welcome! \n");
+	}
+			</pre>
+			<style>
+				p {
+					font-family:FangSong;
+					font-size:30px;
+					margin-left: 2cm;
+					color: blue;
+				}
+			</style>
+			<p>秦時明月漢時關</p>
+			<p>萬里長征人未還</p>
+			<p>但使龍城飛將在</p>
+			<p>不教胡馬度陰山</p>
+		</div>
 
-</body>
+	</body>
+
 </html>

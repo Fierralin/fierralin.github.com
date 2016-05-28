@@ -1,5 +1,17 @@
 html {
 	height: 100%;
+	font-family: FangSong, Georgia;
+	webkit-text-size-adjust: 100%;
+	ms-text-size-adjust: 100%;
+}
+
+html {
+	background:url('images/bg_vert.jpg') #333d43;
+}
+body {
+	background:url('images/bg_head.jpg') repeat-x top center, url('images/bg_vert.jpg') repeat-x;
+	background-position:center;
+	background-repeat:repeat-x;
 }
 
 * {
@@ -9,14 +21,25 @@ html {
 	padding: 0;
 }
 
-body {
-	font-family: Verdana, Tahoma;
-	font-size: 20pt;
-	word-spacing: 5px;
-	background: url(../images/56692dad67ee6.jpg) black repeat;
+#navgat {
+	color: #ADADAD;
+	font-family: monospace;
+	font-size: 27px;
 }
 
-#container{
-	width: 900px;
-	margin: 0 auto;
+#navgat ul {
+	overflow: hidden;
+	display: inline-flex;
+}
+
+#navgat li {
+	position: relative;
+	float: inherit;
+	list-style: none;
+}
+
+#navgat a {
+	display: inline-flex;
+	text-decoration: none;
+	padding: 6px 12px 6px;
 }
