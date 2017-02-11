@@ -1,114 +1,216 @@
 <!doctype HTML>
-<html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>Fierralin's Homepage</title>
-		<meta name="description" content="Fierralin's Homepage" />
-		<meta name="keywords" content="Fierralin, Lancifolium" /> <!-- this page's keywords -->
-		<link  href="css/base.css" media="screen" rel="stylesheet"/>
-        <link  rel="icon" href="http://fierralin.github.io/images/Lancifolium.ico" type="image/x-icon"/>
-		<style type="text/css">
-			html {
-				background:url('images/bg_head.jpg') #333d43 repeat-x top center;
-			}
-			body {
-				width: 60%;
-				margin-left: 20%;
-				background-position:center;
-				background-repeat:repeat-x;
-			}
-			h1 {
-				color:DeepSkyBlue;
-				font-family:Georgia;
-				align: center;
-				margin:0 auto;
-				border: 10px blue;
-			}
-			.portrait_writting {
-				margin:0 auto;width:20px;line-height:24px;border:1px
-			}
-		</style>
-	</head>
+<html lang="en">
 
-
-	<body>
-
-		<!--div id="h1" border="1" align="center">Fierralin's homepage</div-->
-		<h1 align="center">Fierralin's homepage</h1>
-		<style>
-			ul {
-				overflow: hidden;
-				display: inline-block;
-				padding-top: 18px;
-			}
-			li {
-				position: relative;
-				float: left;
-				list-style: none;
-			}
-			a {
-				color: snow;
-				display: inline-flex;
-				text-decoration:none;
-				padding: 6px 12px 6px;
-			}
-			a.homeIcon{
-				background:url('images/home.png') no-repeat center center;
-				display: block;
-				overflow: hidden;
-				padding-left: 12px;
-				padding-right: 12px;
-				text-indent: -9999px;
-				width: 16px;
-			}
-			li:after {
-				color: red;
-				overflow:hidden;
-				position:absolute;
-				width:100%;
-				height:100%;
-			}
-			
-		</style>
-		<ul>
-			<li border="1" align="center"><a href="index.html" class="homeIcon">Homepage</a></li>
-			<li border="1" align="center"><a href="articles/index.html">Articles</a></li>
-			<li border="1" align="center"><a href="Blog/index.html">Blog</a></li>
-			<li border="1" align="center"><a href="Lancifolium/index.html">Lancifolium</a></li>
-		</ul>
-
-		<div>
-			<pre style="color:LightBlue"><!-- programming source code !!! -->
-		#include &ltcstdio&gt
-		int main(void) {
-			printf("Welcome! \n");
+<head>
+	<meta charset="utf-8">
+	<title>Fierralin's GitHub Homepage</title>
+	<meta name="description" content="Fierralin's Homepage" >
+	<meta name="keywords" content="Fierralin, Lancifolium" >
+    <link  rel="icon" href="http://fierralin.github.io/images/Lancifolium.ico" type="image/x-icon"/>
+	<style type="text/css">
+		*{
+			margin:0;padding:0;/* important, makes no skip */
+			font-size:100.1%;
 		}
-			</pre>
-			
-		</div>
-		<div style="Writing-mode:tb-rl; text-align:center" align="center">
-			<style>
-				p {
-					font-family:FangSong;
-					font-size:30px;
-					color: gainsboro;
-				}
-				font-family:FangSong;
-					font-size:30px;
-					color: gainsboro;
-			</style>
-			<p>秦時明月漢時關</p>
-			<p>萬里長征人未還</p>
-			<p>但使龍城飛將在</p>
-			<p>不教胡馬度陰山</p>
-			</br>
-			</br>
-			秦時明月漢時關</br>
-			萬里長征人未還</br>
-			但使龍城飛將在</br>
-			不教胡馬度陰山</br>
-		</div>
+		.uppermenu{
+    		height: 30px;
+    		background-color: #292929;
+    		text-align: center;
+			vertical-align:middle;
+    		color: white;
+    		border-bottom:3px solid #0080ff;
+    		padding-top:10px;
+    		box-shadow: 0px 5px 13px rgba(0,0,0,0.25);
+		}
+		a { text-decoration: none;}
+		.magnetcontainer {
+			display: table;
+			float:left;
+			margin:auto;
+			margin-top:6px;
+			margin-left:6px;
+			height:190px;
+		}
+		.magnet {
+			height: 190px;
+			display: table-cell;
+			align: center;
+			vertical-align: middle;
+		}
+		.magnetcontainer:hover {
+			-webkit-box-shadow: 0 0 3px snow;
+			-moz-box-shadow: 0 0 3px snow;
+			box-shadow: inset 0 0 3px 3px snow;
+		}
+		.magnet:hover {
+			-webkit-box-shadow: 0 0 1px snow;
+			-moz-box-shadow: 0 0 1px snow;
+			box-shadow: inset 0 0 1px 1px snow;
+		}
+	</style>
+</head>
 
-	</body>
+<body onresize="marginwidth();" onload="marginwidth();"
+	style="text-align:center; background:#292929 url('images/triangles.png');">
+
+  <script language="javascript">
+	function marginwidth() {
+		var s = document.getElementById('maincontainer');
+		var w = document.documentElement.clientWidth;
+		var t;
+		if (w > 755) t = (w - 755) / 2;
+		else t = 0;
+		s.style.marginLeft = t + "px";
+	}
+  </script>
+
+  <div class="uppermenu">
+    <span style="font-family:Tahoma; color:snow;">Fierrain's Homepage</span>
+  </div>
+  
+  <div id="maincontainer"
+    style="width:755px; height:100%; background-color:navy;">
+	
+	<!-- line 1 --> <!-- bitbucket, gitlab, github blog, github articles, -->
+	
+	<div class="magnetcontainer" style="height:272px;">
+	 <a href="https://fierralin.github.com/Fierralin.html" title="Fierralin Profile">
+	  <img src="images/Fierralin.png" align="center" style="-webkit-filter: blur(2px);">
+	</a></div>
+	
+	<div class="magnetcontainer">
+	 <a href="https://github.com/Fierralin/">
+	  <div class="magnet" style="width:363px; background-color:grey">
+		<img src="images/github.png" width="100px" align="middle">
+		<span style="font-family:Tahoma; color:snow;">Fierralin's GitHub</span>
+	  </div>
+	 </a>
+	</div>
+	
+	<div class="magnetcontainer">
+	 <a href="https://www.douban.com/people/Fierralin" title="豆瓣">
+	  <div class="magnet"
+		style="width:190px; background:url('images/douban.png');">
+	  </div>
+	</a></div>
+	
+	<div class="magnetcontainer" style="height:92px">
+	 <a href="https://twitter.com/Fierralin/" title="Twitter">
+	  <div class="magnet"
+		style="width:92px; height:92px; background:url('images/twitter.png');">
+	  </div>
+	</a></div>
+	
+	<div class="magnetcontainer" style="height:92px">
+	 <a href="https://facebook.com/Fierralin/" title="Fackbook">
+	  <div class="magnet"
+		style="width:92px; height:92px; background:url('images/facebook.png');">
+	  </div>
+	</a></div>
+	
+	<div class="magnetcontainer" style="height:92px">
+	 <a href="http://www.linkedin.com/in/don-laurenzoo-fierralin-7603b4b4" title="Linkedin">
+	  <div class="magnet"
+		style="width:92px; height:92px; background:url('images/linkedin.png');">
+	  </div>
+	</a></div>
+	
+	<div class="magnetcontainer" style="height:92px">
+	 <a href="http://weibo.com/712423490" title="Sina Microblog">
+	  <div class="magnet"
+		style="width:92px; height:92px; background:url('images/sinamicroblog.png') ; background-color:grey;">
+	  </div>
+	</a></div>
+	
+	<div class="magnetcontainer" style="height:92px"><a href="http://tieba.baidu.com/home/main?id=51624669657272616c696edf30">
+	  <div class="magnet"
+		style="width:92px; height:92px; background:url('images/tieba.png') ;">
+	  </div>
+	</a></div>
+	<!-- more: baidu tieba, weixin,  -->
+	
+	<!-- line 2 -->
+	
+	<div class="magnetcontainer"><a href="http://fierralin.github.com/Blog/">
+	  <div class="magnet" style="width:333px; background-color:black">
+	    <img src="images/githubblog.png" align="middle">
+		<span style="color:#505050; font-family:Tahoma;" color="#361202">Fierrain's GitHub Blog</span>
+	  </div>
+	</a></div>
+	
+	<div class="magnetcontainer" style="height:92px">
+	 <a href="https://fierralin.blogspot.com/" title="BlogSpot">
+	  <div class="magnet"
+		style="width:92px; height:92px; background:url('images/blogger.png');">
+	  </div>
+	</a></div>
+	
+	<div class="magnetcontainer" style="height:92px">
+	 <a href="http://blog.sina.com.cn/u/2457194901" title="Sina Blog">
+	  <div class="magnet"
+		style="width:110px; height:92px; background:url('images/sinablog.png');">
+	  </div>
+	</a></div>
+	
+	<div class="magnetcontainer" style="height:92px">
+	 <a href="https://fierralin.github.com/Articles/" title="GitHub Articles">
+	  <div class="magnet"
+		style="width:92px; height:92px; background:black url('images/githubblog.png');">
+	  </div>
+	</a></div>
+	
+	<div class="magnetcontainer" style="height:92px">
+	 <a href="http://user.qzone.qq.com/1049419760" title="QQ Zone">
+	  <div class="magnet"
+		style="width:92px; height:92px; background:url('images/qqzone.png');">
+	  </div>
+	</a></div>
+	
+	<div class="magnetcontainer" style="height:92px">
+	 <a href="http://fierralin.blog.sohu.com/" title="Sohu Blog">
+	  <div class="magnet"
+		style="width:92px; height:92px; background:url('images/sohublog.png');">
+	  </div>
+	</a></div>
+	
+	<div class="magnetcontainer" style="height:92px">
+	 <a href="https://fierralin.bitbucket.org/" title="Bitbucket Site">
+	  <div class="magnet"
+		style="width:208px; height:92px; background:blue;">
+	  </div>
+	</a></div>
+	
+	<div class="magnetcontainer" style="height:92px">
+	 <a href="https://fierralin.bitbucket.org/" title="Bitbucket Site">
+	  <div class="magnet"
+		style="width:92px; height:92px; background:url('images/bitbucket.png');">
+	  </div>
+	</a></div>
+	
+	<!-- line 3 --> <!-- bitbucket, coding.net -->
+	<div class="magnetcontainer">
+	 <a href="https://gitlab.com/Fierralin">
+	  <div class="magnet"
+		style="width:190px; background:url('images/gitlab.png')">
+	  </div>
+	</a></div>
+	
+	<div class="magnetcontainer" style="height:92px;">
+	 <a href="https://bitbucket.org/Fierralin">
+	  <div class="magnet"
+		style="width:547px; height:92px; background:snow url('images/bitbucketblue.png');">
+	  </div>
+	</a></div>
+	
+	
+	
+	<div style="float:bottom; color:snow">
+	  <div style="height:755px;width:755px">
+	  </div>
+	  Copyright @<a href="#" style="color:snow">Fierralin</a>
+	</div>
+  </div>
+
+</body>
 
 </html>
