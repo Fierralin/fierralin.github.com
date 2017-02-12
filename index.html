@@ -12,13 +12,17 @@
 			margin:0;padding:0;/* important, makes no skip */
 			font-size:100.1%;
 		}
+		@font-face {
+			font-family: AnonymousPro;
+			src: url('css/AnonymousPro.ttf');
+		}
 		.uppermenu{
     		height: 30px;
     		background-color: #292929;
     		text-align: center;
 			vertical-align:middle;
     		color: white;
-    		border-bottom:3px solid #0080ff;
+    		border-bottom:3px solid navy;
     		padding-top:10px;
     		box-shadow: 0px 5px 13px rgba(0,0,0,0.25);
 		}
@@ -69,10 +73,10 @@
   </div>
   
   <div id="maincontainer"
-    style="width:755px; height:100%; background-color:navy;">
+    style="width:755px; height:100%; background-color:#001E90;">
 	
-	<!-- line 1 --> <!-- bitbucket, gitlab, github blog, github articles, -->
-	
+   <!-- line 1 --> <!-- bitbucket, gitlab, github blog, github articles, -->
+   <div>
 	<div class="magnetcontainer" style="height:272px;">
 	 <a href="https://fierralin.github.com/Fierralin.html" title="Fierralin Profile">
 	  <img src="images/Fierralin.png" align="center" style="-webkit-filter: blur(2px);">
@@ -80,7 +84,7 @@
 	
 	<div class="magnetcontainer">
 	 <a href="https://github.com/Fierralin/">
-	  <div class="magnet" style="width:363px; background-color:grey">
+	  <div class="magnet" style="width:363px; background-color:#505050">
 		<img src="images/github.png" width="100px" align="middle">
 		<span style="font-family:Tahoma; color:snow;">Fierralin's GitHub</span>
 	  </div>
@@ -104,7 +108,14 @@
 	<div class="magnetcontainer" style="height:92px">
 	 <a href="https://facebook.com/Fierralin/" title="Fackbook">
 	  <div class="magnet"
-		style="width:92px; height:92px; background:url('images/facebook.png');">
+		style="width:69px; height:92px; background:url('images/facebook.png');">
+	  </div>
+	</a></div>
+	
+	<div class="magnetcontainer" style="height:92px">
+	 <a href="https://plus.google.com/111707890407408810353" title="Google Plus">
+	  <div class="magnet"
+		style="width:92px; height:92px; background:url('images/google_plus.png');">
 	  </div>
 	</a></div>
 	
@@ -127,12 +138,12 @@
 		style="width:92px; height:92px; background:url('images/tieba.png') ;">
 	  </div>
 	</a></div>
-	<!-- more: baidu tieba, weixin,  -->
-	
-	<!-- line 2 -->
-	
+   </div>
+   
+   <!-- line 2 -->
+   <div style="width:755px; float:left;">
 	<div class="magnetcontainer"><a href="http://fierralin.github.com/Blog/">
-	  <div class="magnet" style="width:333px; background-color:black">
+	  <div class="magnet" style="width:333px; background-color:#292929">
 	    <img src="images/githubblog.png" align="middle">
 		<span style="color:#505050; font-family:Tahoma;" color="#361202">Fierrain's GitHub Blog</span>
 	  </div>
@@ -153,14 +164,14 @@
 	</a></div>
 	
 	<div class="magnetcontainer" style="height:92px">
-	 <a href="https://fierralin.github.com/Articles/" title="GitHub Articles">
+	 <a href="https://fierralin.github.com/articles/" title="GitHub Articles">
 	  <div class="magnet"
-		style="width:92px; height:92px; background:black url('images/githubblog.png');">
+		style="width:92px; height:92px; background:#292929 url('images/githubblog.png');">
 	  </div>
 	</a></div>
 	
 	<div class="magnetcontainer" style="height:92px">
-	 <a href="http://user.qzone.qq.com/1049419760" title="QQ Zone">
+	 <a href="http://user.qzone.qq.com/1049419760/main" title="QQ Zone">
 	  <div class="magnet"
 		style="width:92px; height:92px; background:url('images/qqzone.png');">
 	  </div>
@@ -176,18 +187,14 @@
 	<div class="magnetcontainer" style="height:92px">
 	 <a href="https://fierralin.bitbucket.org/" title="Bitbucket Site">
 	  <div class="magnet"
-		style="width:208px; height:92px; background:blue;">
-	  </div>
-	</a></div>
-	
-	<div class="magnetcontainer" style="height:92px">
-	 <a href="https://fierralin.bitbucket.org/" title="Bitbucket Site">
-	  <div class="magnet"
 		style="width:92px; height:92px; background:url('images/bitbucket.png');">
 	  </div>
 	</a></div>
 	
-	<!-- line 3 --> <!-- bitbucket, coding.net -->
+   </div><!-- end line 2 -->
+
+   <!-- line 3 --> <!-- bitbucket, coding.net -->
+   <div>
 	<div class="magnetcontainer">
 	 <a href="https://gitlab.com/Fierralin">
 	  <div class="magnet"
@@ -198,18 +205,62 @@
 	<div class="magnetcontainer" style="height:92px;">
 	 <a href="https://bitbucket.org/Fierralin">
 	  <div class="magnet"
-		style="width:547px; height:92px; background:snow url('images/bitbucketblue.png');">
+		style="width:190px; height:190px; background:#87CEFA url('images/bitbucketblue.png');">
 	  </div>
 	</a></div>
 	
+	<div class="magnetcontainer" style="height:92px">
+	 <a href="https://coding.net/u/Fierralin" title="Coding.net">
+	  <div class="magnet"
+		style="width:155px; height:92px; background:url('images/codingnet.png');">
+	  </div>
+	</a></div>
 	
+	<div class="magnetcontainer" style="height:92px">
+	 <a href="https://github.com/Lancifolium" title="GitHub Lancifolium">
+	  <div class="magnet"
+		style="width:92px; height:92px; background:url('images/githublanc.png');">
+	  </div>
+	</a></div>
 	
+   </div><!-- end line 3 -->
+   
+   <!-- line 4 --> <!-- pandanet-igs, coding.net -->
+   <div style="width:755px; float: left;">
+   
+    <div class="magnetcontainer" style="height:92px">
+	 <a href="https://site.douban.com/221706/" title="Douban Lancifolium">
+	  <div class="magnet"
+		style="width:92px; height:92px; background:url('images/doubanlanc.png');">
+	  </div>
+	</a></div>
+	
+	<div class="magnetcontainer" style="height:92px">
+	 <a href="https://sns.pandanet.co.jp/mypage.php?key=GPYBOBPZYNXQRNMGISGZRGOC" title="Pandanet IGS Homepage">
+	  <div class="magnet"
+		style="width:92px; height:92px; background:url('images/pandanet.png');">
+	  </div>
+	</a></div>
+	
+	<div class="magnetcontainer" style="height:92px">
+	 <a href="https://sns.pandanet.co.jp/com.php?id=261" title="Pandanet IGS Homepage">
+	  <div class="magnet"
+		style="width:92px; height:92px; background:url('images/igslanc.png');">
+	  </div>
+	</a></div>
+	
+   </div><!-- end line 4 -->
+
+
+
 	<div style="float:bottom; color:snow">
 	  <div style="height:755px;width:755px">
 	  </div>
-	  Copyright @<a href="#" style="color:snow">Fierralin</a>
+	   <span style="font-family:AnonymousPro;">
+	    Copyright @<a href="#" style="color:snow"><span style="font-weight:bold;">Fierralin</span></a>
+	   </span>
 	</div>
-  </div>
+  </div> <!-- end maincontainer -->
 
 </body>
 
