@@ -54,26 +54,14 @@
 	</style>
 </head>
 
-<body onresize="marginwidth();" onload="marginwidth();"
-	style="text-align:center; background:#292929 url('images/triangles.png');">
-
-  <script language="javascript">
-	function marginwidth() {
-		var s = document.getElementById('maincontainer');
-		var w = document.documentElement.clientWidth;
-		var t;
-		if (w > 755) t = (w - 755) / 2;
-		else t = 0;
-		s.style.marginLeft = t + "px";
-	}
-  </script>
+<body style="text-align:center; background:#292929 url('images/triangles.png');">
 
   <div class="uppermenu">
     <span style="font-family:Tahoma; color:snow;">Fierrain's Homepage</span>
   </div>
   
   <div id="maincontainer"
-    style="width:755px; height:100%; background-color:#001E90;">
+    style="margin:0 auto; width:755px; height:100%; background-color:#001E90;">
 	
    <!-- line 1 --> <!-- bitbucket, gitlab, github blog, github articles, -->
    <div>
