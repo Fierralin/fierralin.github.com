@@ -6,6 +6,7 @@
 	<title>Fierralin's GitHub Homepage</title>
 	<meta name="description" content="Fierralin's Homepage" >
 	<meta name="keywords" content="Fierralin, Lancifolium" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
     <link  rel="icon" href="http://fierralin.github.io/images/Lancifolium.ico" type="image/x-icon"/>
 	<style type="text/css">
 		*{
@@ -51,6 +52,22 @@
 			-moz-box-shadow: 0 0 1px snow;
 			box-shadow: inset 0 0 1px 1px snow;
 		}
+		@media (min-width:375px){
+			.maincontainer, .subcontainer {
+				width:375px;
+			}
+		}
+		@media (min-width:559px){
+			.maincontainer, .subcontainer {
+				width:559px;
+			}
+		}
+		@media (min-width:755px){
+			.maincontainer, .subcontainer {
+				width:755px;
+			}
+		}
+		
 	</style>
 </head>
 
@@ -60,11 +77,11 @@
     <span style="font-family:Tahoma; color:snow;">Fierrain's Homepage</span>
   </div>
   
-  <div id="maincontainer"
-    style="margin:0 auto; width:755px; height:100%; background-color:#001E90;">
+  <div class="maincontainer"
+    style="margin:0 auto; height:100%; background:#001E90;">
 	
    <!-- line 1 --> <!-- bitbucket, gitlab, github blog, github articles, -->
-   <div>
+   <div class="subcontainer">
 	<div class="magnetcontainer" style="height:272px;">
 	 <a href="https://fierralin.github.com/Fierralin.html" title="Fierralin Profile">
 	  <div class="magnet"
@@ -131,7 +148,7 @@
    </div>
    
    <!-- line 2 -->
-   <div style="width:755px; float:left;">
+   <div class="subcontainer" style="float:left;">
 	<div class="magnetcontainer"><a href="http://fierralin.github.com/Blog/">
 	  <div class="magnet" style="width:333px; background-color:#292929">
 	    <img src="images/githubblog.png" align="middle">
@@ -184,7 +201,7 @@
    </div><!-- end line 2 -->
 
    <!-- line 3 --> <!-- bitbucket, coding.net -->
-   <div>
+   <div class="subcontainer">
 	<div class="magnetcontainer">
 	 <a href="https://gitlab.com/Fierralin">
 	  <div class="magnet"
@@ -216,7 +233,7 @@
    </div><!-- end line 3 -->
    
    <!-- line 4 --> <!-- pandanet-igs, coding.net -->
-   <div style="width:755px; float: left;">
+   <div class="subcontainer" style="float: left;">
    
     <div class="magnetcontainer" style="height:92px">
 	 <a href="https://site.douban.com/221706/" title="Douban Lancifolium">
@@ -243,13 +260,12 @@
 
 
 
-	<div style="float:bottom; color:snow">
-	  <div style="height:755px;width:755px">
-	  </div>
+	<div style="float:left; width:100%;color:snow; text-align:center">
 	   <span style="font-family:AnonymousPro;">
 	    Copyright @<a href="#" style="color:snow"><span style="font-weight:bold;">Fierralin</span></a>
 	   </span>
 	</div>
+	<div style="clear:both"></div>
   </div> <!-- end maincontainer -->
 
 </body>
